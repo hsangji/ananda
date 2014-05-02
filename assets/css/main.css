@@ -540,22 +540,23 @@ a:after {
 	transition: transform 0.4s;
 }
 
-/*.no-touch .mask figure:hover img,
+.no-touch .mask figure:hover img,
 .mask figure.cs-hover img {
 	-webkit-transform: translateY(-30px);
 	-moz-transform: translateY(-30px);
 	-ms-transform: translateY(-30px);
 	transform: translateY(-30px);
-}*/
+}
 
-.touch .mask figcaption {
+/*.touch .mask figcaption {
 	height: 50px;
 	width: 100%;
 	top: auto;
 	bottom: 0;
-}
+}*/
 
-/*.no-touch .mask figcaption {
+/*.no-touch*/ 
+.mask figcaption {
 	height: 50px;
 	width: 100%;
 	top: auto;
@@ -568,9 +569,10 @@ a:after {
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
 	transition: transform 0.4s, opacity 0.1s 0.3s;
-}*/
+}
 
-/*.no-touch .mask figure:hover figcaption,
+/*.no-touch*/ 
+.mask figure:hover figcaption,
 .mask figure.cs-hover figcaption {
 	opacity: 1;
 	-webkit-transform: translateY(0px);
@@ -580,7 +582,7 @@ a:after {
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
-}*/
+}
 
 
 .mask figcaption a {
