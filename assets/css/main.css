@@ -535,19 +535,37 @@ a:after {
 }
 
 .mask figure img {
+
+	-webkit-transition-delay:2s;
+	-moz-transition-delay:2s;
+	transition-delay:2s;
+
+}
+
+/*.no-touch .mask figure:hover img,
+.mask figure.cs-hover img {
 	-webkit-transition: -webkit-transform 0.4s;
 	-moz-transition: -moz-transform 0.4s;
 	transition: transform 0.4s;
-}
 
-.no-touch .mask figure:hover img,
+	-webkit-transform: translateY(-30px);
+	-moz-transform: translateY(-30px);
+	-ms-transform: translateY(-30px);
+	transform: translateY(-30px);
+}*/
+
+
+.no-touch .mask figure:active img,
 .mask figure.cs-hover img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+
 	-webkit-transform: translateY(-30px);
 	-moz-transform: translateY(-30px);
 	-ms-transform: translateY(-30px);
 	transform: translateY(-30px);
 }
-
 .mask figcaption {
 	height: 50px;
 	width: 100%;
