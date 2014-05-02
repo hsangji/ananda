@@ -540,7 +540,7 @@ a:after {
 	transition: transform 0.4s;
 }
 
-.no-touch .mask figure:hover img,
+/*.no-touch */.mask figure:hover img,
 .mask figure.cs-hover img {
 	-webkit-transform: translateY(-30px);
 	-moz-transform: translateY(-30px);
